@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #FAF2D3;
+}
+
+.best{
+    color:#3085C3;
+}
+
+.container{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin:25px;
+}
+
+.plans{
+    background-color: #F4E869;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.textPlan{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin:10px;
+}
+
+.textPrice{
+    font-weight: bolder;
+    font-size: 2.2rem;
+    text-align: center;
+    margin:10px;
+}
+
+.list{
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+    line-height: 50px;
+}
+
+.buyBtn{
+    background-color: orange;
+    border: none;
+    font-size: 2.2rem;
+    padding:10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#footer{
+    background-color: #3085C3;
+    color: white;
+    text-align: right;
+}
+
+.imgLogo{
+    text-align: right;
+}
+
+.top{
+    display: flex;
+    font-size: 1.8rem;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.topMainText{
+    width: 500px;
+    margin:2px;
+}
+
+@media (max-width: 1250px) {
+    .container,.top {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
